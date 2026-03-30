@@ -17,3 +17,7 @@
 // question 5
 
 console.log("Hello...I can learn js through my web browser console");
+
+// question 6
+
+alert("This alert shows script is linked successfully!");
