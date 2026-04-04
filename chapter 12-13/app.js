@@ -47,3 +47,51 @@ if(num> 0) {
 else if (num<0){
     alert( `${num} this is zero`);
 }
+
+// Question 4
+
+let vowel = prompt ("enter your alphabet");
+
+if (vowel === "a" || vowel === "e" || vowel === "i" || vowel === "o" || vowel === "u" || vowel === "A" || vowel === "E" || vowel === "I" || vowel === "O" || vowel === "U") {
+    alert(`${vowel} this is a vowel`);
+} else {
+    alert(`${vowel} this is not a vowel`);
+}
+
+// Question 5
+
+let password = "abc123";
+let userPassword = prompt("Enter your password");
+
+if (userPassword === password) {
+    alert("Correct! You are logged in.");
+} else {
+    alert("Incorrect password. Please try again.");
+}
+
+// Question 6
+
+let greeting;
+let hour = 13;
+
+if (hour < 18) {
+    greeting = "Good day";
+} else {
+    greeting = "Good evening";
+}
+
+// Question 7
+
+let time = +prompt("Enter time in 24-hour format (e.g., 1900 for 7 PM)");
+
+if (time >= 0 && time < 1200) {
+    alert("Good morning!");
+} else if (time >= 1200 && time < 1700) {
+    alert("Good afternoon!");
+} else if (time >= 1700 && time < 2100) {
+    alert("Good evening!");
+} else if (time >= 2100 && time <= 2359) {
+    alert("Good night!");
+} else {
+    alert("Invalid time entered! Please enter a value between 0000 and 2359.");
+}

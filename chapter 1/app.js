@@ -1,18 +1,18 @@
 // question 1
 
-// alert("thanks for visiting");
+alert("thanks for visiting");
 
 // question 2
 
-// alert("Error!please enter a valid password");
+alert("Error!please enter a valid password");
 
 // question 3
 
-// alert("Welcome to JS land...\n Happy coding")
+alert("Welcome to JS land...\n Happy coding")
 
 // question 4 
 
-// alert("Happy Coding!");
+alert("Happy Coding!");
 
 // question 5
 

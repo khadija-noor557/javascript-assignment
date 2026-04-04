@@ -130,3 +130,71 @@ document.write("Price of item 2 is " + priceItem2 + "<br>");
 document.write("Quantity of item 2 is " + qtyItem2 + "<br>");
 document.write("Shipping Charges " + shippingCharges + "<br><br>");
 document.write("Total cost of your order is " + totalCost);
+
+// question 8
+
+let totalMarks = 980;
+let marksObtained = 804;
+let percentage = (marksObtained / totalMarks) * 100;
+
+document.write("<h1>Marks Sheet</h1>");
+document.write("Total marks: " + totalMarks + "<br>");
+document.write("Marks obtained: " + marksObtained + "<br>");
+document.write("Percentage: " + percentage.toFixed(2) + "%");
+
+// question 9
+
+let usDollars = 10;
+let saudiRiyals = 25;
+let pkrFromUSD = usDollars * 104.80;
+let pkrFromRiyals = saudiRiyals * 28;
+let totalPkr = pkrFromUSD + pkrFromRiyals;
+
+document.write("<h1>Currency in PKR</h1>");
+document.write("Total currency in PKR: " + totalPkr);
+
+// question 10
+
+let num = 5;
+let result = ((num + 5) * 10) / 2;
+
+document.write("The result is: " + result);
+
+// question 11
+
+let currentYear = 2024;
+let birthYear = 1990;
+let age = currentYear - birthYear;
+
+document.write("<h1>Age Calculator</h1>");
+document.write("Current Year: " + currentYear + "<br>");
+document.write("Birth Year: " + birthYear + "<br>");
+document.write("Your Age: " + age);
+
+// question 12
+
+let radius = 20;
+let circumference = 2 * Math.PI * radius;
+let area = Math.PI * Math.pow(radius, 2);
+
+document.write("<h1>The Geometrizer</h1>");
+document.write("Radius of a circle: " + radius + "<br>");
+document.write("The circumference is: " + circumference.toFixed(2) + "<br>");
+document.write("The area is: " + area.toFixed(2));
+
+// question 13
+
+let favoriteSnack = "Chocolate Chip";
+let currentAge = 30;
+let maxAge = 80;
+let amountPerDay = 2;
+
+let totalConsumption = (maxAge - currentAge) * 365 * amountPerDay;
+document.write("<h1>The Lifetime Supply Calculator</h1>");
+document.write("Favourite Snack: " + favoriteSnack + "<br>");
+document.write("Current Age: " + currentAge + "<br>");
+document.write("Maximum Age: " + maxAge + "<br>");
+document.write("Amount per day: " + amountPerDay + "<br><br>");
+document.write("You will need to eat " + totalConsumption + " " + favoriteSnack + " to last you until the ripe old age of " + maxAge);
+
+
