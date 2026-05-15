@@ -95,3 +95,4 @@ if (time >= 0 && time < 1200) {
 } else {
     alert("Invalid time entered! Please enter a value between 0000 and 2359.");
 }
+
